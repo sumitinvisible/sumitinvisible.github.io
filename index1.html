@@ -1,0 +1,241 @@
+    <!doctype html>
+
+    <html>
+        <head>
+            <title>Page Title</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="initial-scale=1.0">
+            <style> 
+
+                body{
+                    padding:0;
+                    margin:0;
+                    font-family:sans-serif;
+                }
+                .container{
+
+                    width:80%;
+                    margin:0 auto;
+                    overflow:hidden;
+                }
+                
+    dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.button_1{
+  height:38px;
+  background:#e8491d;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+                header{
+                    margin:0;
+                    min-height:90px;
+                    background-color: #344249;
+                    border-bottom:#e8491d 3px solid;
+
+                }
+                header h1{
+                    float:left;
+                }
+                h1 span{
+                    margin-left:70px;
+                    display:inline-block;
+                    color:#db1c1c;
+                }
+
+                nav{
+                    float:right;
+                }        
+                nav ul li{
+                    display: inline-block;
+                    list-style: none;
+                }
+
+                nav ul li a{
+                    display:inline-block;
+                    text-decoration:none;
+                    padding:10px;
+                    margin-top:12px;
+                    color:white;
+                    border:2px solid #be1414;
+                    background-color:#be1414;
+                    margin:5px;
+                    border-radius:4px
+                }
+
+                nav ul li a:hover{
+                    background-color:black;
+                    color:red;
+
+                }
+
+
+                #one{
+      min-height:400px;
+      background:url('./img/showcase.jpg') no-repeat 0 -400px;
+      text-align:center;
+      color:#ffffff;
+      margin:0;
+    }
+
+    #one h1{
+    margin-top:100px;
+        font-size:55px;
+        margin-bottom:10px;
+     }
+
+                #one p{
+
+                    font-size:20px;
+                }
+                
+                
+                #newsletter{
+  padding:15px;
+  color:#ffffff;
+  background:#35424a
+}
+
+#newsletter h1{
+    
+ float:left;
+}
+
+#newsletter form {
+  float:right;
+  margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+                
+                #boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:90px;
+}
+                
+                footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align: center;
+}
+                
+                aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:5px;
+}
+
+/* Main-col */
+article#main-col{
+  float:left;
+  width:65%;
+}
+
+/* Services */
+ul#services li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+                
+      </style>
+
+        </head>
+
+        <body>
+    <header>
+        <div class="container">
+
+            <div id="branding"> 
+            <h1> <span>ėnlarge</span>View</h1>
+             <nav>
+                 <ul>
+                     <li><a href="index1.html">Home</a></li>
+                     <li><a href="#">AboutUs</a></li>
+                     <li><a href="services1.html">Services</a></li>
+
+
+                 </ul>
+
+             </nav>  
+
+      </div>
+        </div>
+    </header>
+
+    <section id="one">
+
+        <div class="container">
+
+            <h1> Welcome  To Tech Blog
+            </h1>
+            <p> Here we will be offering trending topics<br>blog on Web Development /Big Data<br>
+            Data is the new oil</p>
+        </div>
+    </section>
+
+<section id="newsletter">
+      <div class="container">
+        <h1>Subscribe To Our Newsletter</h1>
+        <form>
+          <input type="email" placeholder="Enter Email...">
+          <button type="submit" class="button_1">Subscribe</button>
+        </form>
+      </div>
+    </section>
+       <section id="boxes">
+      <div class="container">
+        <div class="box">
+          <img src="./img/logo_html.png">
+          <h3>HTML5 Markup</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+        </div>
+        <div class="box">
+          <img src="./img/logo_css.png">
+          <h3>CSS3 Styling</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+        </div>
+        <div class="box">
+          <img src="./img/logo_brush.png">
+          <h3>Graphic Design</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+        </div>
+      </div>
+    </section>
+<footer>
+      <p>ėnlarge View, Copyright &copy; 2018</p>
+    </footer>
+        </body>
+    </html>
